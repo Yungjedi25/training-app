@@ -40,7 +40,7 @@ jobs:
           done
 
       - name: Run API tests
-        run: pytest tests/test_app.py -v
+        run: pytest test/test_app.py -v
 
       - name: Teardown container
         if: always()
